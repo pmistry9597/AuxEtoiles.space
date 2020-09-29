@@ -6,7 +6,7 @@ export default function GenLayout({children, page}) {
         <div>
             <div className={genStyle.header}>
                 <div className={genStyle.logo}>
-                    <img src='/images/plainvector.svg'></img>
+                    <img src='/images/plainvector.svg' className={genStyle.logopic}></img>
                     <p className={genStyle.slogan}>Nous y irons!</p>
                 </div>
                 <p className={genStyle.createdBy}>Created by Preet Mistry</p>

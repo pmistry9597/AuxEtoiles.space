@@ -10,6 +10,13 @@
     color: #FFEB00; 
     font-family: Audiowide-Reg;
     overflow: hidden;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .logopic {
+        width: 100%;
+    }
 }
 
 .dropdown {

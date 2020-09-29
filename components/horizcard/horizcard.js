@@ -7,16 +7,18 @@ export default function Horizcard({ children, width, leftbar, padding }) {
     };
 
     const normalCardStyle = {
-        display: 'inline-block',
+        display: 'block',
         margin: 'auto',
-        width,
+        width: '90%',
+        marginTop: '1em',
+        marginBottom: '1em',
     }
     
     let cardStyle = normalCardStyle;
     if (leftbar) {
         cardStyle = widthStyle;
         cardStyle.position = 'relative';
-        cardStyle.top = '-1em'
+        //cardStyle.top = '-1em'
     }
     return (
         <Leftbar padding={padding} nobar={!leftbar} color={ (typeof(leftbar) == 'string') ? leftbar: null }>
