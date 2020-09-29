@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Audiowide-Reg';
+  src: url("/Audiowide-Regular.ttf");
+}
+
 html,
 body {
   padding: 0;

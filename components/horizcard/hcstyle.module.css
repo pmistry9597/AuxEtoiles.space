@@ -1,0 +1,7 @@
+.card {
+    box-shadow: 1px 1px 3px 3px #aaaaaa;
+    border-radius: 0.7em;
+    padding: 3em;
+    display: inline-block;
+    margin-bottom: 2em;
+}
