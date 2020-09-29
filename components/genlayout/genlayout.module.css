@@ -29,18 +29,19 @@
     font-weight: normal;
     font-size: 0.8em;
     display: block;
-    width: 15%;
     background-image: url('/textures/double-bubble-dark.png');
     color: white;
     border-radius: 0.8em;
     z-index: 100;
 
     position: absolute;
+    float: right;
     margin-top: 1.25em;
     right: 0%;
 }
 .dropdown > ul > li {
-    padding: 0.5em;
+    padding: 1em;
+    padding-right: 3em;
 }
 .dropdown > ul > li:hover {
     border-width: 2px;
