@@ -24,9 +24,9 @@ export default function Home() {
         <title>About the Creator - Aux Étoiles!</title>
       </Head>
 
-      <Leftbar padding='15em' style={{overflow: 'hidden', marginBottom: '10em'}}>
+      <Leftbar padding='13em' style={{overflow: 'hidden', marginBottom: '10em'}}>
       <img src='/images/profile.jpg' style={{width: '13em', display: 'inline-block', marginLeft: '3em'}} />
-      <div style={{display: 'inline-block', marginLeft: '3em', width: '70%', position: 'relative', top: '-2em'}}>
+      <div style={{display: 'inline-block', marginLeft: '3em', width: '70%', position: 'relative'}}>
         <h1 style={h1style}>About the Creator (Preet Mistry)</h1><br />
         <p>
           One of the most defining things about me is that I crave something better. Whether it be something as simple as changing around the spacings on this very website, to aiming for something better for our future (big and vague, I know :P), it’s something I want to do. In the next few years, I hope to be doing something I love. It may be working under a company where I can have a critical role in the decisions made, or creating my own firm, charged with my ambition and goals. One of my principle dreams is to make everything free for all humans, whether it be freedom of information, to basic liberties such as the right to a good life.
@@ -34,8 +34,8 @@ export default function Home() {
       </div>
       </Leftbar>
 
-      <Leftbar padding='28em' style={{overflow: 'hidden'}} color='#aa00ff' top='3em'>
-      <div style={{display: 'inline-block', position: 'relative', top: '-8em', marginLeft: '3em'}}>
+      <Leftbar padding='20em' style={{overflow: 'hidden'}} color='#aa00ff' top='3em'>
+      <div style={{display: 'inline-block', position: 'relative', marginLeft: '3em'}}>
         <h1 style={h1style}>My Interests</h1><br />
         <p>
           I must say, my interests do revolve strongly around STEM and building things. I have strong interests in space exploration and astronomy.
@@ -55,14 +55,14 @@ export default function Home() {
       </Leftbar>
 
       <Leftbar padding='8em' style={{overflow: 'hidden', marginBottom: '10em'}}>
-      <div style={{display: 'inline-block', marginLeft: '3em', width: '90%', position: 'relative', top: '-2em'}}>
+      <div style={{display: 'inline-block', marginLeft: '3em', width: '90%', position: 'relative'}}>
         <h1 style={h1back}>Employers Section!</h1><br />
         <p>Yanno, skills, experience, projects, blah blah...</p>
       </div>
       </Leftbar>
 
       <Leftbar padding='15em' color='#00f2ff' style={{overflow: 'hidden', marginBottom: '10em'}}>
-      <div style={{display: 'inline-block', marginLeft: '3em', width: '90%', position: 'relative', top: '-2em'}}>
+      <div style={{display: 'inline-block', marginLeft: '3em', width: '90%', position: 'relative'}}>
         <h1 style={h1style}>Main Skills</h1><br />
         <Smolcard text='C++' tcolor='white' color='#fc4903' />
         <Smolcard text='Python' tcolor='white' color='#fc4903' />
@@ -78,7 +78,7 @@ export default function Home() {
       </Leftbar>
 
       <Leftbar padding='50em' color='#88ff00' style={{overflow: 'hidden', marginBottom: '10em'}}>
-      <div style={{display: 'inline-block', marginLeft: '3em', width: '100%', position: 'relative', top: '-2em'}}>
+      <div style={{display: 'inline-block', marginLeft: '3em', width: '100%', position: 'relative'}}>
         <h1 style={h1style}>Experience</h1><br />
         <ul style={{listStyle: 'none'}}>
           <li>
@@ -130,7 +130,7 @@ export default function Home() {
       </Leftbar>
 
       <Leftbar padding='52em' color='#4cdffc' style={{overflow: 'hidden', marginBottom: '10em'}}>
-      <div style={{display: 'inline-block', marginLeft: '3em', width: '100%', position: 'relative', top: '-2em'}}>
+      <div style={{display: 'inline-block', marginTop: '1em', marginLeft: '3em', width: '100%', position: 'relative', top: '-2em'}}>
         <h1 style={h1style}>Projects</h1><br />
         <ul style={{listStyle: 'none'}}>
           <li>

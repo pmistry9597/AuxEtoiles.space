@@ -11,13 +11,15 @@ export default function Home() {
         <title>Aux Étoiles!</title>
       </Head>
 
-      <Horizcard padding='5em' width='100%' leftbar='#aa00ee'>
+      <Horizcard padding='5em' width='100%' leftbar='#ee00ff'>
         <Link href='/aboutcreator'>
-        <h1 className='aboutCreator' style={{display: 'inline-block'}}>About the Creator (Employers click here!)</h1>
+        <h1 className='aboutCreator' style={{display: 'inline-block', maxWidth: '50%'}}>About the Creator (Employers click here!)</h1>
         </Link>
-        <img src='/images/profile.jpg' style={{width: '6em', display: 'inline-block',float: 'right', position: 'relative'}} />
+        <img src='/images/profile.jpg' style={{overflow: 'hidden', width: '6em', display: 'inline-block',float: 'right', position: 'relative'}} />
       </Horizcard>
 
     </GenLayout>
   )
 }
+
+/* leftbar='#ee00ff'*/

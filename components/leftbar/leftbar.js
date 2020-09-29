@@ -2,15 +2,6 @@ import wrapperStyle from '../../components/leftbar/leftbar.module.css'
 
 export default function Leftbar({children, color, nobar, padding, top}) {
     const leftbarStyle = {
-        borderStyle: 'solid',
-        borderWidth: '2em',
-        borderColor: 'brown',
-        width: '1em',
-        marginRight: '2em',
-        paddingBottom: '3em',
-        display: 'inline-block',
-        position: 'relative',
-        top: '2em'
     }
     if (typeof(color) == 'string') {
         leftbarStyle.borderColor = color;
@@ -28,13 +19,33 @@ export default function Leftbar({children, color, nobar, padding, top}) {
     return (
     <div className={wrapperStyle.wrapper} style={top ? wrapAdded : null}>
         {
-            nobar ? null : (<div style={leftbarStyle}></div>)
+            nobar ? null : (<div className='leftbar' style={leftbarStyle}></div>)
         }
-        <div style={{display: 'inline-block', width: '85%'}}>
+        <div style={{display: 'inline-block', width: '90%'}}>
         {
             children
         }
         </div>
+        <style jsx>
+            {`
+            .leftbar {
+                border-style: solid;
+                border-width: 2em;
+                border-color: brown;
+                width: 1em;
+                margin-right: 2em;
+                padding-bottom: 3em;
+                display: inline-block;
+                position: relative;
+                top: 2em;
+            }
+            @media only screen and (max-width: 1200px) {
+                .leftbar {
+                  display: none;
+                }
+              }
+            `}
+        </style>
     </div>
     );
 }
