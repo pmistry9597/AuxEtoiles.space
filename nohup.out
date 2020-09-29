@@ -1,0 +1,16 @@
+
+> auxetoiles.space@0.1.0 server /home/ubuntu/auxetoiles.space
+> node server.js
+
+> Ready on https://localhost:8443
+Terminated
+npm ERR! code ELIFECYCLE
+npm ERR! errno 143
+npm ERR! auxetoiles.space@0.1.0 server: `node server.js`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the auxetoiles.space@0.1.0 server script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2020-09-29T20_36_01_516Z-debug.log
