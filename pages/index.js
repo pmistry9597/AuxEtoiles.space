@@ -11,7 +11,7 @@ export default function Home() {
         <title>Aux Étoiles!</title>
       </Head>
 
-      <Horizcard padding='5em' width='100%' leftbar='#ee00ff'>
+      <Horizcard padding='7em' width='95%' leftbar='#ee00ff'>
         <Link href='/aboutcreator'>
         <h1 className='aboutCreator' style={{display: 'inline-block', maxWidth: '50%'}}>About the Creator (Employers click here!)</h1>
         </Link>
