@@ -1,9 +1,11 @@
 import hcstyle from '../../components/horizcard/hcstyle.module.css';
 import Leftbar from '../../components/leftbar/leftbar'
 
-export default function Horizcard({ children, width, leftbar, padding }) {
+export default function Horizcard({ children, width, leftbar, padding, top }) {
     const widthStyle = {
-        width
+        width,
+        position: 'relative',
+        top
     };
 
     const normalCardStyle = {
@@ -12,6 +14,8 @@ export default function Horizcard({ children, width, leftbar, padding }) {
         width: '90%',
         marginTop: '1em',
         marginBottom: '1em',
+        position: 'relative',
+        top
     }
     
     let cardStyle = normalCardStyle;
