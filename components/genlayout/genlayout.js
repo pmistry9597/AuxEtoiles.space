@@ -19,7 +19,6 @@ export default function GenLayout({children, page}) {
                         <div className={genStyle.dropdown}>
                             <ul style={{listStyle: 'none'}}>
                                 <Link href='/aboutcreator'><li>About the Creator</li></Link>
-                                <li>FAQ</li>
                             </ul>
                         </div>
                     </li>
