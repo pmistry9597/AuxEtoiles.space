@@ -178,9 +178,11 @@ export default function Home() {
               <li style={{marginTop: '0.85em'}}>Utilized socket programming to facilitate Bluetooth data transfer</li>
               <li style={{marginTop: '0.85em'}}>Developed Android application (Java) and PC-side script (Python)</li>
             </ul>
-
           </li>
         </ul>
+      </div>
+      <div style={{padding: '1em', fontSize: '1.2em', color: '#3333cc'}}>
+        <a href='https://github.com/pmistry9597' target='_blank'>Check out my GitHub for source code and more projects!</a>
       </div>
       </Leftbar>
 
