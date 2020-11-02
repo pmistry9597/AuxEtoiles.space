@@ -129,8 +129,8 @@ export default function Home() {
       </div>
       </Leftbar>
 
-      <Leftbar padding='52em' color='#4cdffc' style={{overflow: 'hidden', marginBottom: '10em'}}>
-      <div style={{display: 'inline-block', marginTop: '1em', marginLeft: '3em', width: '100%', position: 'relative', top: '-2em'}}>
+      <Leftbar padding='56em' color='#4cdffc' style={{overflow: 'hidden', marginBottom: '0em'}}>
+      <div style={{display: 'inline-block' ,marginTop: '4em', marginLeft: '3em', width: '100%', position: 'relative', top: '0em'}}>
         <h1 style={h1style}>Projects</h1><br />
         <ul style={{listStyle: 'none'}}>
           <li>
@@ -181,7 +181,7 @@ export default function Home() {
           </li>
         </ul>
       </div>
-      <div style={{padding: '1em', fontSize: '1.2em', color: '#3333cc'}}>
+      <div style={{padding: '2em', fontSize: '1.2em', color: '#3333cc'}}>
         <a href='https://github.com/pmistry9597' target='_blank'>Check out my GitHub for source code and more projects!</a>
       </div>
       </Leftbar>
